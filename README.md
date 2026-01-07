@@ -1,36 +1,71 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Custom Lexical Text Editor
 
-## Getting Started
+A customizable and fully modified text editor built on top of Lexical Editor with enhanced UI features using **ShadCN UI**.
 
-First, run the development server:
+### Features
+
+- Hashtags Support: Integrated hashtag functionality for seamless tagging.
+
+- Linking: Easily add and manage links inside the text.
+
+- Lists: Full support for ordered and unordered lists.
+
+- Overflow Management: Handles content overflow for better performance.
+
+- Rich Text: Formatting options such as bold, italics, underline, and more.
+
+- Customizable UI: Built using ShadCN UI for a sleek and responsive user interface.
+
+- Fully Extensible: You can add your own plugins and functionality with ease.
+
+## Installation
+
+1. Clone this repository:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/darkkphoenyx/rich-text-editor.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install dependencies:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+pnpm install
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+3. Run the editor:
 
-## Learn More
+```bash
+pnpm run dev
+```
 
-To learn more about Next.js, take a look at the following resources:
+4. Visit
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+localhost:3000/lexical
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+_This will start the editor on your local machine at http://localhost:3000 (or whatever port you configured)._
 
-## Deploy on Vercel
+## Author
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+[Deepesh Sunuwar](https://thedeepesh.vercel.app)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Contributing
+
+If you’d like to contribute to this project, feel free to fork the repository, make changes, and create a pull request. Please ensure that your code follows the existing code style and conventions.
+
+### Steps to contribute:
+
+1. Fork this repository
+
+2. Clone your fork locally
+
+3. Create a new branch for your feature
+
+4. Make your changes
+
+5. Create a pull request
+
+## License
+
+This project is licensed under the MIT License
